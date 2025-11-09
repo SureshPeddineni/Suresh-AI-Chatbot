@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyBUZAXt2mnkMb18ZxxgCZ087idOgzdrLNY"; // Replace with your actual key
+const apiKey = "AIzaSyBzii1j03s7PKn6F8raJ8TidlswlM6q_n8"; // Replace with your actual key
 
 async function callGemini() {
   const inputEl = document.getElementById("userInput");
@@ -43,3 +43,4 @@ async function callGemini() {
     aiMessage.innerText = "Error: " + error.message;
   }
 }
+
